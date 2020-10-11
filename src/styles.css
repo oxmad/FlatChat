@@ -1,0 +1,23 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex-grow: 1;
+  height: 100%;
+}
+
+textarea {
+  -ms-overflow-style: none;
+  /*  	scrollbar-width: none; */
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
+}
