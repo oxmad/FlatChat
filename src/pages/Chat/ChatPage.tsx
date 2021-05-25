@@ -11,7 +11,7 @@ export const ChatPage = () => {
   return (
     <MainLayout header={<ChatPageHeader />}>
       <MessagesContainer>
-        <Message username="Petr Sobaka" message="I'm gay!" />
+        <Message username="Petr Sobaka" message="I'm user!" />
         <Message username="Vasya Kot" message="I'm not!" isMyMessage />
       </MessagesContainer>
       <MessageArea />
